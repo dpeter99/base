@@ -4,6 +4,9 @@ import hu.bme.mit.train.interfaces.TrainController;
 import hu.bme.mit.train.interfaces.TrainSensor;
 import hu.bme.mit.train.interfaces.TrainUser;
 
+/***
+ * Detects the speed limit of the track
+ */
 public class TrainSensorImpl implements TrainSensor {
 
 	private TrainController controller;
