@@ -13,9 +13,9 @@ public class TachographTests {
         public void TestDataAddition(){
             TachographModule tc = new TachographModule();
 
-            tc.RecordData(new Date(0), 10, 10);
+            tc.recordData(new Date(0), 10, 10);
 
-            var a = tc.GetData(new Date(0));
+            var a = tc.getData(new Date(0));
 
             Assertions.assertTrue(a.containsKey(10));
 
